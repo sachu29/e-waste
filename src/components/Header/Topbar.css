@@ -1,0 +1,27 @@
+/*** Topbar Start ***/
+.topbar .dropdown-toggle::after {
+    border: none;
+    content: "\f107";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    vertical-align: middle;
+    margin-left: 8px;
+    color: var(--bs-primary);
+}
+
+.topbar .dropdown .dropdown-menu a:hover {
+    background: var(--bs-primary);
+    color: var(--bs-white);
+}
+
+.topbar .dropdown .dropdown-menu {
+    transform: rotateX(0deg);
+    visibility: visible;
+    background: var(--bs-light);
+    padding-top: 11px;
+    border: 0;
+    transition: .5s;
+    opacity: 1;
+}
+
+/*** Topbar End ***/

@@ -1,0 +1,10 @@
+/*** FAQs Start ***/
+.faq-section .accordion .accordion-item .accordion-header .accordion-button {
+    color: var(--bs-secondary);
+}
+
+.faq-section .accordion .accordion-item .accordion-header .accordion-button.collapsed {
+    color: var(--bs-dark);
+}
+
+/*** FAQs End ***/

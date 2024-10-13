@@ -1,0 +1,19 @@
+/*** Features Start ***/
+.feature .feature-item {
+    text-align: center;
+    border-radius: 10px;
+    background: var(--bs-light);
+    border: 1px solid transparent;
+    transition: 0.5s;
+}
+
+.feature .feature-item:hover {
+    border: 1px solid var(--bs-primary);
+}
+
+.feature .feature-item .feature-icon {
+    background: var(--bs-white);
+    border-radius: 10px;
+    display: inline-block;
+}
+/*** Features End ***/

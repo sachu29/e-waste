@@ -1,38 +1,87 @@
-.App {
-  text-align: center;
+/*** Spinner Start ***/
+/*** Spinner ***/
+#spinner {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity .5s ease-out, visibility 0s linear .5s;
+  z-index: 99999;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#spinner.show {
+  transition: opacity .5s ease-out, visibility 0s linear 0s;
+  visibility: visible;
+  opacity: 1;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/*** Spinner End ***/
+
+.back-to-top {
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  transition: 0.5s;
+  z-index: 99;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/*** Button Start ***/
+.btn {
+  font-weight: 600;
+  transition: .5s;
+}
+
+.btn-square {
+  width: 32px;
+  height: 32px;
+}
+
+.btn-sm-square {
+  width: 34px;
+  height: 34px;
+}
+
+.btn-md-square {
+  width: 44px;
+  height: 44px;
+}
+
+.btn-lg-square {
+  width: 56px;
+  height: 56px;
+}
+
+.btn-xl-square {
+  width: 66px;
+  height: 66px;
+}
+
+.btn-square,
+.btn-sm-square,
+.btn-md-square,
+.btn-lg-square,
+.btn-xl-square {
+  padding: 0;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-weight: normal;
 }
 
-.App-link {
-  color: #61dafb;
+.btn.btn-primary {
+  color: var(--bs-white);
+  border: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn.btn-primary:hover {
+  background: var(--bs-dark);
+  color: var(--bs-primary);
+}
+
+.btn.btn-light {
+  color: var(--bs-primary);
+  border: none;
+}
+
+.btn.btn-light:hover {
+  color: var(--bs-white);
+  background: var(--bs-primary);
 }
