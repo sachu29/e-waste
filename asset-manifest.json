@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/e-waste/static/css/main.d5e41d1f.css",
+    "main.js": "/e-waste/static/js/main.9823912b.js",
+    "static/js/453.71e67bc6.chunk.js": "/e-waste/static/js/453.71e67bc6.chunk.js",
+    "static/media/e-waste-Main-logo.jpg": "/e-waste/static/media/e-waste-Main-logo.f78532ddb642cef6118c.jpg",
+    "static/media/e-waste logo.png": "/e-waste/static/media/e-waste logo.fa6bbb26a8f7aa0d2229.png",
+    "static/media/MainLogoSymbolText-removebg-preview.png": "/e-waste/static/media/MainLogoSymbolText-removebg-preview.17ebb1ded8bd234ce721.png",
+    "static/media/E-WASTE aboutUs.jpg": "/e-waste/static/media/E-WASTE aboutUs.3e961535564f68370d9e.jpg",
+    "static/media/e-waste corporate.avif": "/e-waste/static/media/e-waste corporate.1fb7da31f3edfd9473c2.avif",
+    "static/media/e-waste cash.jpeg": "/e-waste/static/media/e-waste cash.72f063a80f3e16127ad7.jpeg",
+    "static/media/e-waste collection.avif": "/e-waste/static/media/e-waste collection.f305f355ad0a0d7f3d25.avif",
+    "index.html": "/e-waste/index.html",
+    "main.d5e41d1f.css.map": "/e-waste/static/css/main.d5e41d1f.css.map",
+    "main.9823912b.js.map": "/e-waste/static/js/main.9823912b.js.map",
+    "453.71e67bc6.chunk.js.map": "/e-waste/static/js/453.71e67bc6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d5e41d1f.css",
+    "static/js/main.9823912b.js"
+  ]
+}
