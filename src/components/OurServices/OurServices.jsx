@@ -1,54 +1,32 @@
 import React from "react";
 import "./OurServices.css";
 import OurServicesCard from "./OurServicesCard";
-import serviceImg1 from "../../asset/img/service-1.jpg";
-import serviceImg2 from "../../asset/img/service-2.jpg";
-import serviceImg3 from "../../asset/img/service-3.jpg";
-import serviceImg4 from "../../asset/img/service-4.jpg";
-import serviceImg5 from "../../asset/img/service-5.jpg";
-import serviceImg6 from "../../asset/img/service-6.jpg";
+import serviceImg1 from "../../asset/img/e-waste collection.avif";
+import serviceImg2 from "../../asset/img/e-waste cash.jpeg";
+import serviceImg3 from "../../asset/img/e-waste corporate.avif";
 
 const OurServices = () => {
   const ourServicesData = [
     {
       img: serviceImg1,
-      title: "Strategy Consulting",
+      title: "Direct Pickup",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur,sint? Excepturi facilis neque nesciunt similique officiis veritatis,",
+        "We will pick your e-waste at your door step.",
       delayTiming: "0.2s",
     },
     {
       img: serviceImg2,
-      title: "Financial Advisory",
+      title: "Good Pricing",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur,sint? Excepturi facilis neque nesciunt similique officiis veritatis,",
+        "We provide best pricing for your electronic scrap.",
       delayTiming: "0.4s",
     },
     {
       img: serviceImg3,
-      title: "Management",
+      title: "Corporate",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur,sint? Excepturi facilis neque nesciunt similique officiis veritatis,",
+        "We have lot experience in corporate E-waste recycling. We are capable of taking huge projects.",
       delayTiming: "0.6s",
-    },
-    {
-      img: serviceImg4,
-      title: "Supply Optimization",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur,sint? Excepturi facilis neque nesciunt similique officiis veritatis,",
-      delayTiming: "0.2s",
-    },
-    {
-      img: serviceImg5,
-      title: "Hr Consulting",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur,sint? Excepturi facilis neque nesciunt similique officiis veritatis,",
-    },
-    {
-      img: serviceImg6,
-      title: "Marketing Consulting",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur,sint? Excepturi facilis neque nesciunt similique officiis veritatis,",
     },
   ];
   return (

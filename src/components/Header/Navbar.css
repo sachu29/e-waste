@@ -60,6 +60,15 @@
 }
 
 @media (max-width: 991.98px) {
+    /* .navbar-light {
+        position: absolute;
+        width: 100%;
+        top: 0;
+        left: 0;
+        border-bottom: 1px solid rgba(255, 255, 255, .1);
+        z-index: 999;
+    } */
+
     .sticky-top.navbar-light {
         position: relative;
         background: var(--bs-white);
@@ -153,6 +162,13 @@
     .navbar-light .navbar-nav .nav-link.active::after {
         width: 2px;
         height: 12px;
+    }
+}
+
+@media (max-width: 667px) {
+    .navbar-light .navbar-brand img {
+        width: 220px;
+        max-height: 45px;
     }
 }
 

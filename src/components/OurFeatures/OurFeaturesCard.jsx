@@ -1,11 +1,11 @@
 import React from 'react'
 
-const OurFeaturesCard = ({title, description, link}) => {
+const OurFeaturesCard = ({ title, description, link, fontLogo }) => {
     return (
-        <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
+        <div class="col-md-6 col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.2s">
             <div class="feature-item p-4">
                 <div class="feature-icon p-4 mb-4">
-                    <i class="fas fa-chart-line fa-4x text-primary"></i>
+                    {fontLogo}
                 </div>
                 <h4>{ title }</h4>
                 <p class="mb-4">{description}

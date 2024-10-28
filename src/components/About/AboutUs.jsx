@@ -2,11 +2,11 @@ import React from "react";
 import aboutUsData from "./About";
 import commonData from '../../Data/CommonData'
 import './AboutUs.css'
-import AboutImg1 from '../../asset/img/about-1.jpg';
-import AboutImg2 from "../../asset/img/13.png";
-import AboutImg3 from "../../asset/img/about-3.png";
-import AboutImg4 from "../../asset/img/about-4.png";
-import AboutImg5 from "../../asset/img/10.png";
+// import AboutImg1 from '../../asset/img/about-1.jpg';
+import AboutImg2 from "../../asset/img/E-WASTE aboutUs.jpg";
+// import AboutImg3 from "../../asset/img/about-3.png";
+// import AboutImg4 from "../../asset/img/about-4.png";
+import AboutImg5 from "../../asset/img/e-waste logo.png";
 
 const AboutUs = () => {
   return (
@@ -73,19 +73,19 @@ const AboutUs = () => {
             </div>
           </div>
           <div className="col-xl-5 wow fadeInRight" data-wow-delay="0.2s">
-            <div className="bg-primary rounded position-relative overflow-hidden">
+            <div className="rounded position-relative overflow-hidden" style={{ background: "#e1ffa9"}}>
               <img src={AboutImg2} className="img-fluid rounded w-100" alt="" />
 
               <div
                 className=""
                 style={{ position: "absolute", top: "-15px", right: "-15px" }}
               >
-                <img
+                {/* <img
                   src={AboutImg3}
                   className="img-fluid"
                   style={{ width: "150px", height: "150px", opacity: "0.7" }}
                   alt=""
-                />
+                /> */}
               </div>
               <div
                 className=""
@@ -96,14 +96,14 @@ const AboutUs = () => {
                   transform: "rotate(90deg)",
                 }}
               >
-                <img
+                {/* <img
                   src={AboutImg4}
                   className="img-fluid"
                   style={{ width: "100px", height: "150px", opacity: "0.9" }}
                   alt=""
-                />
+                /> */}
               </div>
-              <div className="rounded-bottom">
+              <div className="rounded-bottom" style={{ background: "#e1ffa9", padding: '20px',}}>
                 <img
                   src={AboutImg5}
                   className="img-fluid rounded-bottom w-100"

@@ -1,6 +1,5 @@
 import React from 'react'
 import commonData from '../../Data/CommonData.js'
-import { Link } from 'react-router-dom'
 import MainLogo from '../../asset/img/MainLogoSymbolText-removebg-preview.png'
 import './Footer.css'
 
@@ -15,26 +14,10 @@ const Footer = () => {
                             <a href="index.html" class="p-0">
                               <h4 class="text-white"><img src={MainLogo} alt="MainLogo" style={{width: 300}} /></h4>
                             </a>
-                            <p class="mb-4">Dolor amet sit justo amet elitr clita ipsum elitr est.Lorem ipsum dolor sit amet, consectetur adipiscing...</p>
-                            <div class="d-flex">
-                                <a href="/" class="bg-primary d-flex rounded align-items-center py-2 px-3 me-2">
-                                    <i class="fas fa-apple-alt text-white"></i>
-                                    <div class="ms-3">
-                                        <small class="text-white">Download on the</small>
-                                        <h6 class="text-white">App Store</h6>
-                                    </div>
-                                </a>
-                                <a href="/" class="bg-dark d-flex rounded align-items-center py-2 px-3 ms-2">
-                                    <i class="fas fa-play text-primary"></i>
-                                    <div class="ms-3">
-                                        <small class="text-white">Get it on</small>
-                                        <h6 class="text-white">Google Play</h6>
-                                    </div>
-                                </a>
-                            </div>
+                          <p class="mb-4">{ commonData[0].footerContent}</p>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-6 col-xl-2">
+                    <div class="col-md-6 col-lg-6 col-xl-4">
                         <div class="footer-item">
                             <h4 class="text-white mb-4">Quick Links</h4>
                             <a href="/"><i class="fas fa-angle-right me-2"></i> About Us</a>
@@ -45,7 +28,7 @@ const Footer = () => {
                             <a href="/"><i class="fas fa-angle-right me-2"></i> Contact us</a>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-6 col-xl-3">
+                    {/* <div class="col-md-6 col-lg-6 col-xl-3">
                         <div class="footer-item">
                             <h4 class="text-white mb-4">Support</h4>
                             <a href="/"><i class="fas fa-angle-right me-2"></i> Privacy Policy</a>
@@ -55,8 +38,8 @@ const Footer = () => {
                             <a href="/"><i class="fas fa-angle-right me-2"></i> FAQ</a>
                             <a href="/"><i class="fas fa-angle-right me-2"></i> Help</a>
                         </div>
-                    </div>
-                    <div class="col-md-6 col-lg-6 col-xl-3">
+                    </div> */}
+                    <div class="col-md-6 col-lg-6 col-xl-4">
                         <div class="footer-item">
                             <h4 class="text-white mb-4">Contact Info</h4>
                             <div class="d-flex align-items-center">

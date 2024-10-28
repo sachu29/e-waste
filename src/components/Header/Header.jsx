@@ -1,14 +1,15 @@
 import React from "react";
 import "./Header.css";
 import Navbar from './Navbar';
-// import Topbar from './Topbar';
+import HeaderCarousel from './HeaderCarousel';
 
 const Header = () => {
   return (
-      <header>
-          {/* <Topbar /> */}
-          <Navbar />
-        </header>
+    <div className="container-fluid position-relative p-0">
+      <Navbar />
+      <HeaderCarousel />
+    </div>
+
   );
 };
 
